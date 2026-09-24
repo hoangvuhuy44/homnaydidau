@@ -1,0 +1,498 @@
+{
+  "source": "https://maps.app.goo.gl/GXyMnYHkXfmf1fPh7",
+  "listName": "Café",
+  "capturedAt": "2026-09-19",
+  "note": "Addresses read from the shared Google Maps list on 2026-09-19. District tags map these addresses to former district areas, not current administrative divisions. Menus and opening hours are not verified.",
+  "places": [
+    "ORO cafe",
+    "Dot Coffee",
+    "Tiệm Tháng Năm",
+    "Tranquil Artisan Coffee - 08 Nguyen Quang Bich",
+    "Blackbird Coffee",
+    "Bancông Cafe & Restaurant",
+    "All Beans Coffee Roasters by LAB",
+    "S.ii.U Coffee",
+    "The Sipping Bar - Waterfront",
+    "One Roaster Coffee - by Clean Cup",
+    "Loading T café",
+    "Workmate Coffee",
+    "Blank Space - Workspace & Coffee",
+    "PaiOi Cafe",
+    "Every Half Coffee Roasters - Phố Chả Cá",
+    "rand moroc and coffee",
+    "The Time Hub - Study Hub & Co-working Space",
+    "Allure Cafe Bar",
+    "Reo Ca cà phê",
+    "Nhà Đây Mà",
+    "Where coffee",
+    "Manzi Art Space and Cafe",
+    "Traffee Tea & Coffee",
+    "Êmm Station",
+    "Café TICTACTOE",
+    "Golden Workspace Coffee - Phùng Khoang",
+    "The Matcha Factory",
+    "Aimētoi",
+    "The Commun Hub",
+    "Nậu Cafe & Cassette Workshop",
+    "Matecha",
+    "Đồi Sữa Bê",
+    "Bearish Coffee - Local From Learning To Lounging",
+    "Dieuhouse Bar Cafe",
+    "Nhà của Nguyên cafe & more",
+    "Phiên",
+    "Hoca Café - Hồ Cá, phê bánh và em",
+    "Tầng 3 cafe",
+    "Soulmate - Study space",
+    "Indoor Coffee - Relax & Working space",
+    "xonxao café",
+    "Hibiki Café",
+    "The Cozy Village- Nona Boardgame",
+    "Highlands Coffee HC DuThuyen TrucBach",
+    "Second date Coffee",
+    "The Coffee Cart - 16 Ngũ Xã",
+    "Briefly On Earth Coffee",
+    "Hermanos Cafe",
+    "Gu Station",
+    "Một cái kho Võng Thị"
+  ],
+  "excludedPlaces": [
+    {
+      "name": "Sky City Tower",
+      "reason": "Excluded at the user's request pending verification of the intended cafe. Google Maps lists this place as an apartment building."
+    }
+  ],
+  "districts": [
+    "Ba Đình",
+    "Bắc Từ Liêm",
+    "Cầu Giấy",
+    "Đống Đa",
+    "Hà Đông",
+    "Hai Bà Trưng",
+    "Hoàn Kiếm",
+    "Hoàng Mai",
+    "Long Biên",
+    "Nam Từ Liêm",
+    "Tây Hồ",
+    "Thanh Xuân",
+    "Sơn Tây",
+    "Ba Vì",
+    "Chương Mỹ",
+    "Đan Phượng",
+    "Đông Anh",
+    "Gia Lâm",
+    "Hoài Đức",
+    "Mê Linh",
+    "Mỹ Đức",
+    "Phú Xuyên",
+    "Phúc Thọ",
+    "Quốc Oai",
+    "Sóc Sơn",
+    "Thạch Thất",
+    "Thanh Oai",
+    "Thanh Trì",
+    "Thường Tín",
+    "Ứng Hòa"
+  ],
+  "cafes": [
+    {
+      "id": "cafe-001",
+      "name": "ORO cafe",
+      "address": "17 P. Trương Hán Siêu, Cửa Nam, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-002",
+      "name": "Dot Coffee",
+      "address": "106 P. Tuệ Tĩnh, Hai Bà Trưng, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-003",
+      "name": "Tiệm Tháng Năm",
+      "address": "11/36 Láng Hạ, Láng, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-004",
+      "name": "Tranquil Artisan Coffee - 08 Nguyen Quang Bich",
+      "address": "08 P. Nguyễn Quang Bích, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-005",
+      "name": "Blackbird Coffee",
+      "address": "5 P. Chân Cầm, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-006",
+      "name": "Bancông Cafe & Restaurant",
+      "address": "2 P. Đinh Liệt, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-007",
+      "name": "All Beans Coffee Roasters by LAB",
+      "address": "14 P. Phạm Huy Thông, Giảng Võ, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-008",
+      "name": "S.ii.U Coffee",
+      "address": "25 Ng. 36 P. Đào Tấn, Giảng Võ, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-009",
+      "name": "The Sipping Bar - Waterfront",
+      "address": "Công Viên Thống Nhất, Đ. Đại Cồ Việt, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-010",
+      "name": "One Roaster Coffee - by Clean Cup",
+      "address": "33 P. Kim Mã Thượng, Ngọc Hà, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-011",
+      "name": "Loading T café",
+      "address": "8 P. Chân Cầm, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-012",
+      "name": "Workmate Coffee",
+      "address": "X1 Ng. 35 P. Nguyễn An Ninh, Tương Mai, Hà Nội",
+      "district": "Hoàng Mai",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-013",
+      "name": "Blank Space - Workspace & Coffee",
+      "address": "22 Linh Lang, Ngọc Hà, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-014",
+      "name": "PaiOi Cafe",
+      "address": "2R5P+X4X, Ngõ 46A Phạm Ngọc Thạch, Kim Liên, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-015",
+      "name": "Every Half Coffee Roasters - Phố Chả Cá",
+      "address": "6B P. Chả Cá, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-016",
+      "name": "rand moroc and coffee",
+      "address": "7 Phan Huy Chú, Cửa Nam, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-017",
+      "name": "The Time Hub - Study Hub & Co-working Space",
+      "address": "36 P. Hoàng Cầu, Ô Chợ Dừa, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-018",
+      "name": "Allure Cafe Bar",
+      "address": "21 Dãy B7, Đầm Trấu, Hồng Hà, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-019",
+      "name": "Reo Ca cà phê",
+      "address": "23A Ng. Hội Vũ, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-020",
+      "name": "Nhà Đây Mà",
+      "address": "Ngõ 3 Vũ Thạnh, Ô Chợ Dừa, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-19",
+      "source": "https://maps.app.goo.gl/GXyMnYHkXfmf1fPh7"
+    },
+    {
+      "id": "cafe-021",
+      "name": "Where coffee",
+      "address": "297 P. Vũ Tông Phan, Khương Đình, Hà Nội",
+      "district": "Thanh Xuân",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-022",
+      "name": "Manzi Art Space and Cafe",
+      "address": "14 P. Phan Huy Ích, Ba Đình, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-023",
+      "name": "Traffee Tea & Coffee",
+      "address": "56 P. Huế, Hai Bà Trưng, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-024",
+      "name": "Êmm Station",
+      "address": "31 P. Liên Trì, Tổ 34+Tổ 35, Cửa Nam, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-025",
+      "name": "Café TICTACTOE",
+      "address": "31 Ng. 7 P. Hoàng Minh Đạo, Bồ Đề, Hà Nội",
+      "district": "Long Biên",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-026",
+      "name": "Golden Workspace Coffee - Phùng Khoang",
+      "address": "Khu Liền Kề Vinaconex 2, Đại Mỗ, Hà Nội",
+      "district": "Nam Từ Liêm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-027",
+      "name": "The Matcha Factory",
+      "address": "8 Ng. Bà Triệu, Hai Bà Trưng, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-028",
+      "name": "Aimētoi",
+      "address": "137A Ng. 399 Đ. Ngọc Lâm, Bồ Đề, Hà Nội",
+      "district": "Long Biên",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-029",
+      "name": "The Commun Hub",
+      "address": "3 P. Bùi Thị Xuân, Hai Bà Trưng, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-030",
+      "name": "Nậu Cafe & Cassette Workshop",
+      "address": "60 Ng. 64 P. Nguyễn Lương Bằng, Đống Đa, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-031",
+      "name": "Matecha",
+      "address": "79A Triệu Việt Vương, Hai Bà Trưng, Hà Nội",
+      "district": "Hai Bà Trưng",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-032",
+      "name": "Đồi Sữa Bê",
+      "address": "12 Ngô Văn Sở, Cửa Nam, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-033",
+      "name": "Bearish Coffee - Local From Learning To Lounging",
+      "address": "364 P. Khâm Thiên, Văn Miếu - Quốc Tử Giám, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-034",
+      "name": "Dieuhouse Bar Cafe",
+      "address": "20 Ngõ 465 đường Ngọc Thụy, Gia Thượng, Bồ Đề, Hà Nội",
+      "district": "Long Biên",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-035",
+      "name": "Nhà của Nguyên cafe & more",
+      "address": "16 ngách 112 Ng. 189 Đ. Hoàng Hoa Thám, Ngọc Hà, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-19",
+      "source": "https://maps.app.goo.gl/GXyMnYHkXfmf1fPh7"
+    },
+    {
+      "id": "cafe-036",
+      "name": "Phiên",
+      "address": "19 P. Ngọc Hà, Ba Đình, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-037",
+      "name": "Hoca Café - Hồ Cá, phê bánh và em",
+      "address": "44 P. Mai Anh Tuấn, Ô Chợ Dừa, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-038",
+      "name": "Tầng 3 cafe",
+      "address": "Nhà A10, 231 P. Chùa Bộc, Kim Liên, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-039",
+      "name": "Soulmate - Study space",
+      "address": "176a P. Nguyễn Đình Hoàn, Nghĩa Đô, Hà Nội",
+      "district": "Cầu Giấy",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-040",
+      "name": "Indoor Coffee - Relax & Working space",
+      "address": "55 Ng. 25 P. Vũ Ngọc Phan, Láng, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-041",
+      "name": "xonxao café",
+      "address": "349 P. Vũ Tông Phan, Khương Đình, Hà Nội",
+      "district": "Thanh Xuân",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-042",
+      "name": "Hibiki Café",
+      "address": "ngõ 45 P. Chùa Bộc, Kim Liên, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-043",
+      "name": "The Cozy Village- Nona Boardgame",
+      "address": "đối diện 112 Ng. 95 P. Chùa Bộc, Khu tập thể Thủy Lợi, Kim Liên, Hà Nội",
+      "district": "Đống Đa",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-044",
+      "name": "Highlands Coffee HC DuThuyen TrucBach",
+      "address": "17 P. Trấn Vũ, Ba Đình, Hà Nội 10000, Vietnam",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-23",
+      "source": "https://maps.app.goo.gl/uyavTdmPkJv61eUm9"
+    },
+    {
+      "id": "cafe-045",
+      "name": "Second date Coffee",
+      "address": "101 A2 P. Lạc Chính, Tổ 6, Ba Đình, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-046",
+      "name": "The Coffee Cart - 16 Ngũ Xã",
+      "address": "16 Ngũ Xã, Ba Đình, Hà Nội",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-047",
+      "name": "Briefly On Earth Coffee",
+      "address": "3 P. Nguyễn Chế Nghĩa, Hoàn Kiếm, Hà Nội",
+      "district": "Hoàn Kiếm",
+      "addressCheckedAt": "2026-09-23",
+      "source": "https://www.foody.vn/ha-noi/briefly-on-earth-coffee-nguyen-che-nghia.qawzya"
+    },
+    {
+      "id": "cafe-048",
+      "name": "Hermanos Cafe",
+      "address": "6 P. Nam Tràng, Ba Đình, Hà Nội 11117, Vietnam",
+      "district": "Ba Đình",
+      "addressCheckedAt": "2026-09-23",
+      "source": "https://www.google.com/maps/search/?api=1&query=Hermanos+Cafe+6+Nam+Trang+Ba+Dinh+Ha+Noi"
+    },
+    {
+      "id": "cafe-049",
+      "name": "Gu Station",
+      "address": "Golden West, P. Lê Văn Thiêm, Thanh Xuân, Hà Nội",
+      "district": "Thanh Xuân",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    },
+    {
+      "id": "cafe-050",
+      "name": "Một cái kho Võng Thị",
+      "address": "Ng. 45 P. Võng Thị, Tây Hồ, Hà Nội",
+      "district": "Tây Hồ",
+      "addressCheckedAt": "2026-09-11",
+      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+    }
+  ]
+}

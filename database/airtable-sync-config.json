@@ -1,0 +1,15 @@
+{
+  "baseId": "appQVKT77eFHVHjGP",
+  "baseName": "Hanoi Coffee Shuffle — Menu Operations",
+  "tables": {
+    "cafes": "tblV464AyLNAnuLbJ",
+    "menuItems": "tblnLB502KpAQAdBp",
+    "sources": "tblfw68zPM1CTFvOo",
+    "menuVerifications": "tblfxcxZSHEX73d0P"
+  },
+  "publicationPolicy": {
+    "verificationStatus": "Verified",
+    "currentRecord": true,
+    "requiredLinks": ["Cafe", "Menu Item", "Source"]
+  }
+}

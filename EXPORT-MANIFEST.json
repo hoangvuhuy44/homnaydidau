@@ -1,0 +1,67 @@
+{
+  "exportedAt": "2026-09-24",
+  "project": "Hanoi Coffee Shuffle",
+  "sitesVersion": 53,
+  "sourceCommit": "67d57d1500414d37786c75b9ac732bf256280805",
+  "liveUrl": "https://hanoi-coffee-shuffle.hoang-vuhuy44.chatgpt.site/",
+  "publicationDirectory": "docs",
+  "publicFileChanges": "None; dist renamed to docs.",
+  "files": [
+    {
+      "path": "docs/app.js",
+      "sha256": "77945fd9b6150a25c2e2247190c8775f3cf4c9048071e4f57939d1cf870b1379"
+    },
+    {
+      "path": "docs/cafe-logic.js",
+      "sha256": "e63d75a56c911da309b24be9fdf8e7c99d178b5b8c23e8a1d4e32162ccbe8f5b"
+    },
+    {
+      "path": "docs/cafes.json",
+      "sha256": "41eae78a0d0d477a19379ffc32e5d729afd11f280df11265ea503965ac030489"
+    },
+    {
+      "path": "docs/coffee.jpg",
+      "sha256": "530756ee085e5cf4e5571517153980093bb7f4cd6d5f1d37c986d84d0e35f6b7"
+    },
+    {
+      "path": "docs/i18n.js",
+      "sha256": "c845ca9665ecd6f961dbd74ac5c00de3223eea40d318d8347c9b276c43196291"
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "6cb70d8f39b582d30902a2093ad03e51b969e9b84272c287a0dbafb91d262bac"
+    },
+    {
+      "path": "docs/legal-theme.js",
+      "sha256": "87e3727d0471292b10189bc146444ee428442ea3c2202e2f44a310ca8275d158"
+    },
+    {
+      "path": "docs/menu-logic.js",
+      "sha256": "cdfaa11cf3e2809191dc58a81cac0198e08b853a13d2738be5349a403e5b4b79"
+    },
+    {
+      "path": "docs/menus.json",
+      "sha256": "fd38a0365d42483d190d8c84aa8c95cfb9dc9f37330d2e0bfe4af56725e08347"
+    },
+    {
+      "path": "docs/privacy-en.html",
+      "sha256": "d6322f2eeecb36b09b0dc319740a6b8d0c99a7e4d26d328584c19df7bea60234"
+    },
+    {
+      "path": "docs/privacy.html",
+      "sha256": "66b3fbefa3f1aecd9391206a4ac4f15a37f1dafa65502da5495ea862a048222c"
+    },
+    {
+      "path": "docs/style.css",
+      "sha256": "29638767b479a521f003c0728fa73783db5963276eaa10389d72276e4e9836dc"
+    },
+    {
+      "path": "docs/terms-en.html",
+      "sha256": "cca48201d6027357dc47aa164626d726e9ae7f52f5b813bd75e302695e664307"
+    },
+    {
+      "path": "docs/terms.html",
+      "sha256": "0eb3f1773eb40e557e41de296deca0f421848e5e8173531d0a87ce676de469e9"
+    }
+  ]
+}

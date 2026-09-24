@@ -1,0 +1,15 @@
+{
+  "name": "hanoi-coffee-shuffle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hanoi café picker, branch menus, map and bilingual catalog — static GitHub Pages export",
+  "scripts": {
+    "start": "node serve.cjs",
+    "test": "node verify.cjs",
+    "build:menus": "node database/build-menus.cjs",
+    "build:review": "node database/build-review.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
