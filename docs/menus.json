@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-25",
   "reviewAfterDays": 180,
   "dataSource": {
     "system": "airtable",
@@ -19782,7 +19782,708 @@
     {
       "cafeId": "cafe-032",
       "coverage": "partial",
-      "items": []
+      "items": [
+        {
+          "id": "two-chairs-001",
+          "name": {
+            "vi": "Đen",
+            "en": "Black coffee"
+          },
+          "type": "coffee",
+          "priceVnd": 45000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-002",
+          "name": {
+            "vi": "Nâu",
+            "en": "Coffee with condensed milk"
+          },
+          "type": "coffee",
+          "priceVnd": 50000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-003",
+          "name": {
+            "vi": "Xỉu",
+            "en": "White coffee"
+          },
+          "type": "coffee",
+          "priceVnd": 55000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-004",
+          "name": {
+            "vi": "Ngất",
+            "en": "White coffee with cream"
+          },
+          "type": "coffee",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "house_pick",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null,
+            "label": "MUST TRY"
+          },
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-005",
+          "name": {
+            "vi": "Biêng",
+            "en": "White coffee with Baileys Irish Cream"
+          },
+          "type": "coffee",
+          "priceVnd": 70000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-006",
+          "name": {
+            "vi": "Classic Coldbrew",
+            "en": "Classic cold brew"
+          },
+          "type": "coffee",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-007",
+          "name": {
+            "vi": "Coldbrew Mix",
+            "en": "Cold brew mix · seasonal fruit"
+          },
+          "type": "coffee",
+          "priceVnd": 65000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-008",
+          "name": {
+            "vi": "Espresso",
+            "en": "Espresso"
+          },
+          "type": "coffee",
+          "priceVnd": 50000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-009",
+          "name": {
+            "vi": "Americano",
+            "en": "Americano"
+          },
+          "type": "coffee",
+          "priceVnd": 50000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-010",
+          "name": {
+            "vi": "Cappuccino",
+            "en": "Cappuccino"
+          },
+          "type": "coffee",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-011",
+          "name": {
+            "vi": "Mocha",
+            "en": "Mocha"
+          },
+          "type": "coffee",
+          "priceVnd": 65000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-012",
+          "name": {
+            "vi": "Latte",
+            "en": "Latte"
+          },
+          "type": "coffee",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-013",
+          "name": {
+            "vi": "Caramel Macchiato",
+            "en": "Caramel macchiato"
+          },
+          "type": "coffee",
+          "priceVnd": 65000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-014",
+          "name": {
+            "vi": "Tiramisu Latte",
+            "en": "Tiramisu latte"
+          },
+          "type": "coffee",
+          "priceVnd": 65000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-015",
+          "name": {
+            "vi": "Choco Latte",
+            "en": "Chocolate latte"
+          },
+          "type": "other",
+          "priceVnd": 65000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-016",
+          "name": {
+            "vi": "Choco Baileys",
+            "en": "Chocolate latte with Baileys Irish Cream"
+          },
+          "type": "other",
+          "priceVnd": 75000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-017",
+          "name": {
+            "vi": "Chua-colate",
+            "en": "Chocolate latte with orange"
+          },
+          "type": "other",
+          "priceVnd": 75000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "house_pick",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null,
+            "label": "MUST TRY"
+          },
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-018",
+          "name": {
+            "vi": "Matcha Latte",
+            "en": "Matcha latte"
+          },
+          "type": "other",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-019",
+          "name": {
+            "vi": "Matcha Dừa",
+            "en": "Coconut matcha"
+          },
+          "type": "other",
+          "priceVnd": 65000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "house_pick",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null,
+            "label": "MUST TRY"
+          },
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-020",
+          "name": {
+            "vi": "Matcha Dâu",
+            "en": "Strawberry matcha"
+          },
+          "type": "other",
+          "priceVnd": 65000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-021",
+          "name": {
+            "vi": "Matcha Xoài",
+            "en": "Mango matcha"
+          },
+          "type": "other",
+          "priceVnd": 65000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-022",
+          "name": {
+            "vi": "Kem Mặn",
+            "en": "Black tea with salted cream"
+          },
+          "type": "other",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-023",
+          "name": {
+            "vi": "Phúc Bồn Tử",
+            "en": "Black tea with raspberry"
+          },
+          "type": "other",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-024",
+          "name": {
+            "vi": "Nho Dứa",
+            "en": "Blackcurrant tea with pineapple"
+          },
+          "type": "other",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-025",
+          "name": {
+            "vi": "Vải Hoa",
+            "en": "Black tea with lychee and rose"
+          },
+          "type": "other",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "house_pick",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null,
+            "label": "MUST TRY"
+          },
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-026",
+          "name": {
+            "vi": "Ổi Hồng",
+            "en": "Black tea with pink guava"
+          },
+          "type": "other",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-027",
+          "name": {
+            "vi": "Kombucha",
+            "en": "Kombucha"
+          },
+          "type": "other",
+          "priceVnd": 55000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        },
+        {
+          "id": "two-chairs-028",
+          "name": {
+            "vi": "London Fog",
+            "en": "London Fog"
+          },
+          "type": "other",
+          "priceVnd": 60000,
+          "priceNote": {
+            "vi": "Giá niêm yết trên ảnh menu tại quán; phụ phí và tình trạng bán chưa xác nhận.",
+            "en": "Price shown on the branch menu photo; surcharges and availability are not confirmed."
+          },
+          "status": "published",
+          "highlight": "none",
+          "source": {
+            "kind": "menu_photo",
+            "scope": "branch",
+            "evidenceId": "photo-20260925-two-chairs-menu",
+            "checkedAt": "2026-09-25",
+            "publishedAt": null
+          },
+          "highlightSource": null,
+          "availableUntil": null
+        }
+      ]
     },
     {
       "cafeId": "cafe-033",

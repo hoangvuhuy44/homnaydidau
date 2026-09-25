@@ -1,15 +1,15 @@
 {
-  "exportedAt": "2026-09-24",
+  "exportedAt": "2026-09-25",
   "project": "Hanoi Coffee Shuffle",
-  "sitesVersion": 53,
-  "sourceCommit": "67d57d1500414d37786c75b9ac732bf256280805",
+  "sitesVersion": 55,
+  "sourceCommit": "698c65b3c31088d9569f06a7852ce9ba838e1e72",
   "liveUrl": "https://hanoi-coffee-shuffle.hoang-vuhuy44.chatgpt.site/",
   "publicationDirectory": "docs",
-  "publicFileChanges": "None; dist renamed to docs.",
+  "publicFileChanges": "From v53: app.js, cafes.json, index.html, menus.json. Other public files are unchanged.",
   "files": [
     {
       "path": "docs/app.js",
-      "sha256": "77945fd9b6150a25c2e2247190c8775f3cf4c9048071e4f57939d1cf870b1379"
+      "sha256": "c41b31aaf972bddf193f820f0caab96ff4fda444599ee8d37bd58d73f28be51a"
     },
     {
       "path": "docs/cafe-logic.js",
@@ -17,7 +17,7 @@
     },
     {
       "path": "docs/cafes.json",
-      "sha256": "41eae78a0d0d477a19379ffc32e5d729afd11f280df11265ea503965ac030489"
+      "sha256": "ab40f3a6b596e7d6a2b222406e61e9450afea5983b095be9252fe335c084538a"
     },
     {
       "path": "docs/coffee.jpg",
@@ -29,7 +29,7 @@
     },
     {
       "path": "docs/index.html",
-      "sha256": "6cb70d8f39b582d30902a2093ad03e51b969e9b84272c287a0dbafb91d262bac"
+      "sha256": "c6486ccc9137a459b287cf8bff94e7e774682b33ef1bd933cb310963a4a0756a"
     },
     {
       "path": "docs/legal-theme.js",
@@ -41,7 +41,7 @@
     },
     {
       "path": "docs/menus.json",
-      "sha256": "fd38a0365d42483d190d8c84aa8c95cfb9dc9f37330d2e0bfe4af56725e08347"
+      "sha256": "5763a41b44312205491a481b5134d43bdf377125b0f98caaf0499ec8c7a1e401"
     },
     {
       "path": "docs/privacy-en.html",

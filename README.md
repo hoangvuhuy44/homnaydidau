@@ -1,6 +1,6 @@
 # Đi cà phê — Hanoi Coffee Shuffle
 
-Bản xuất ngày **24/09/2026**, lấy từ **phiên bản Sites 53 đang công bố**, không phải bản cũ ngày 11/09.
+Bản xuất ngày **25/09/2026**, lấy từ **phiên bản Sites 55 đang công bố**, không phải bản cũ ngày 11/09.
 
 Website tĩnh: HTML, CSS, JavaScript thuần và JSON. Không cần React, cài thư viện, API key, tài khoản ChatGPT hoặc máy chủ cơ sở dữ liệu để chạy bản công khai. Node.js chỉ dùng khi xem thử và kiểm tra trên máy.
 
@@ -24,7 +24,7 @@ Hướng dẫn chính thức: https://docs.github.com/en/pages/getting-started-w
 
 - `docs/`: toàn bộ website đang công bố, giữ nguyên nội dung file: giao diện sáng/tối, Việt/Anh, vòng quay, lọc khu vực, danh sách quán, bản đồ, menu, điều khoản và quyền riêng tư.
 - `docs/cafes.json`: 50 địa điểm đang dùng.
-- `docs/menus.json`: 1.222 mục đồ uống trong snapshot công khai hiện tại; không phải kiểm chứng lại vào ngày xuất.
+- `docs/menus.json`: 1.250 mục đồ uống trong snapshot công khai hiện tại; không phải kiểm chứng lại vào ngày xuất.
 - `database/`: dữ liệu menu để chỉnh sửa, bộ kiểm tra/tạo snapshot, công cụ review offline và cấu hình Airtable không chứa token.
 - `serve.cjs`: máy chủ xem thử trên máy.
 - `test-features.cjs`, `test-menus.cjs`, `verify.cjs`: kiểm tra chức năng và dữ liệu.

@@ -26,7 +26,7 @@ Gói chứa snapshot JSON hiện có và các ID cấu hình không bí mật. �
 
 ## Những gì đã kiểm tra khi xuất
 
-Mã nguồn khớp commit của phiên bản Sites 53 đã triển khai thành công. Các file công khai trong docs giữ nguyên byte so với dist của commit đó. Đã chạy bộ kiểm tra chức năng, đường dẫn nội bộ và menu trong gói xuất. Việc này không xác minh lại giờ mở cửa, giá hoặc món có sẵn tại quán.
+Mã nguồn khớp commit của phiên bản Sites 55 đã triển khai thành công. Các file công khai trong docs giữ nguyên byte so với dist của commit đó. Đã chạy bộ kiểm tra chức năng, đường dẫn nội bộ và menu trong gói xuất. Việc này không xác minh lại giờ mở cửa, giá hoặc món có sẵn tại quán.
 
 ## Bảo trì
 

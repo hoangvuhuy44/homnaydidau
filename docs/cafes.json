@@ -1,7 +1,7 @@
 {
-  "source": "https://maps.app.goo.gl/GXyMnYHkXfmf1fPh7",
+  "source": "https://maps.app.goo.gl/VxZLZMW2LEWsjyiTA",
   "listName": "Café",
-  "capturedAt": "2026-09-19",
+  "capturedAt": "2026-09-25",
   "note": "Addresses read from the shared Google Maps list on 2026-09-19. District tags map these addresses to former district areas, not current administrative divisions. Menus and opening hours are not verified.",
   "places": [
     "ORO cafe",
@@ -35,7 +35,7 @@
     "The Commun Hub",
     "Nậu Cafe & Cassette Workshop",
     "Matecha",
-    "Đồi Sữa Bê",
+    "Two Chairs Coffee Lab",
     "Bearish Coffee - Local From Learning To Lounging",
     "Dieuhouse Bar Cafe",
     "Nhà của Nguyên cafe & more",
@@ -59,6 +59,10 @@
     {
       "name": "Sky City Tower",
       "reason": "Excluded at the user's request pending verification of the intended cafe. Google Maps lists this place as an apartment building."
+    },
+    {
+      "name": "Đồi Sữa Bê",
+      "reason": "Removed at the user’s request because it is not a café."
     }
   ],
   "districts": [
@@ -344,11 +348,11 @@
     },
     {
       "id": "cafe-032",
-      "name": "Đồi Sữa Bê",
-      "address": "12 Ngô Văn Sở, Cửa Nam, Hà Nội",
-      "district": "Hoàn Kiếm",
-      "addressCheckedAt": "2026-09-11",
-      "source": "https://maps.app.goo.gl/ByN8MiVXCTDPZoCa7"
+      "name": "Two Chairs Coffee Lab",
+      "address": "34 P. Yên Hoa, Yên Phụ, Tây Hồ, Hà Nội",
+      "district": "Tây Hồ",
+      "addressCheckedAt": "2026-09-25",
+      "source": "https://maps.app.goo.gl/VxZLZMW2LEWsjyiTA"
     },
     {
       "id": "cafe-033",
