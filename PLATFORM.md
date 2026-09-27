@@ -18,7 +18,7 @@ Gói chứa snapshot JSON hiện có và các ID cấu hình không bí mật. �
 
 ## Phụ thuộc bên ngoài
 
-- Google Fonts: tải font Be Vietnam Pro; khi không tải được, trình duyệt dùng font dự phòng.
+- Google Fonts: tải Be Vietnam Pro cho nội dung và Bricolage Grotesque cho tiêu đề (h1–h6), tên thương hiệu và tên quán trong vòng quay/bản đồ. Bricolage Grotesque dùng optical sizing tự động; khi không tải được, trình duyệt dùng Be Vietnam Pro rồi sans-serif. Cấu hình `--font-body` và `--font-title` nằm trong `docs/style.css`.
 - Google Maps / My Maps: iframe bản đồ và liên kết địa điểm. Bản đồ nhúng hiện tại được giữ nguyên; tài khoản sở hữu bản đồ vẫn kiểm soát quyền chia sẻ.
 - Liên kết nguồn menu và email: mở dịch vụ bên ngoài khi người dùng chọn.
 - WebMCP: tích hợp tùy chọn nếu trình duyệt có document.modelContext; không phải điều kiện để dùng website.
