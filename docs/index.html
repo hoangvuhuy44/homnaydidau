@@ -8,6 +8,164 @@
 <section id="mapSection" class="map-section" aria-labelledby="mapHeading"><div class="map-heading"><div><p class="eyebrow">HÀ NỘI / CAFÉ MAP</p><h2 id="mapHeading" data-i18n="mapHeading"></h2><p class="lead" data-i18n="mapIntro"></p></div></div><div id="mapSelection" class="map-selection" role="status" hidden><div><strong id="mapCafeName"></strong><span id="mapCafeAddress"></span></div><button id="mapReset" class="secondary" type="button" data-i18n="mapReset"></button></div><div class="map-canvas"><iframe id="collectionMap" src="https://www.google.com/maps/d/u/0/embed?mid=1HD7O0I7fkZkIFJigLAGjGEvOkkUncAE&amp;ehbc=2E312F&amp;noprof=1&amp;refresh=20260925-1024" width="640" height="480" title="Bản đồ các quán cà phê Hà Nội" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></section>
 <p id="error" role="alert" hidden><span data-i18n="loadError"></span> <button id="retry" data-i18n="retry"></button></p>
 <section id="catalog" class="catalog" aria-labelledby="catalogHeading"><p class="eyebrow">HÀ NỘI / CAFÉ COLLECTION</p><h2 id="catalogHeading" data-i18n="catalog"></h2><p class="lead" data-i18n="catalogIntro"></p><label for="catalogSearch" data-i18n="search"></label><input type="search" id="catalogSearch" autocomplete="off" aria-describedby="searchHint"><p id="searchHint" class="small" data-i18n="searchHint"></p><p id="catalogCount" role="status" class="small"></p><div id="catalogGrid" class="catalog-grid"></div><p id="catalogEmpty" class="empty-state" hidden></p><button id="catalogMore" class="secondary catalog-more" type="button" aria-controls="catalogGrid" aria-expanded="false" hidden></button></section>
+<!--
+  Hôm nay đi đâu? — donation section (light/dark, Vietnamese/English)
+  Paste this entire block once in docs/index.html, after the closing </section>
+  for #catalog and immediately before </main>. Remove any earlier #supportDonation
+  block first. Uses the site's html[data-theme] and #language controls.
+  Replace the sample QR and bank details before publishing.
+-->
+<style>
+  #supportDonation {
+    --donate-bg: #f5f7f0;
+    --donate-panel: #fffef9;
+    --donate-border: #c4d3c7;
+    --donate-heading: #172d24;
+    --donate-text: #3d5549;
+    --donate-accent: #776122;
+    --donate-button: #234b3b;
+    --donate-button-text: #fffdf5;
+    --donate-qr-bg: #e8efe7;
+    max-width: 1168px;
+    margin: 48px auto 72px;
+    padding: clamp(24px, 4vw, 40px);
+    border: 1px solid var(--donate-border);
+    border-radius: 16px;
+    background: var(--donate-bg);
+    color: var(--donate-heading);
+    box-shadow: 0 10px 28px rgba(25, 48, 39, .06);
+  }
+  html[data-theme="dark"] #supportDonation {
+    --donate-bg: #192d26;
+    --donate-panel: #10241d;
+    --donate-border: #537061;
+    --donate-heading: #fff9ea;
+    --donate-text: #d2dfd4;
+    --donate-accent: #e8cb8d;
+    --donate-button: #eacb8b;
+    --donate-button-text: #15231c;
+    --donate-qr-bg: #f8f5e9;
+    box-shadow: none;
+  }
+  #supportDonation * { box-sizing: border-box; }
+  #supportDonation [hidden] { display: none !important; }
+  #supportDonation .donate-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr);
+    gap: 28px;
+    align-items: start;
+  }
+  #supportDonation .donate-eyebrow {
+    margin: 0 0 10px;
+    color: var(--donate-accent);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  #supportDonation h2 {
+    margin: 0 0 12px;
+    color: var(--donate-heading);
+    font-size: clamp(23px, 3vw, 32px);
+    line-height: 1.2;
+  }
+  #supportDonation p {
+    max-width: 56ch;
+    margin: 0 0 14px;
+    color: var(--donate-text);
+    line-height: 1.6;
+  }
+  #supportDonation details {
+    padding: 14px;
+    border: 1px solid var(--donate-border);
+    border-radius: 12px;
+    background: var(--donate-panel);
+  }
+  #supportDonation summary {
+    display: block;
+    padding: 13px 16px;
+    border-radius: 8px;
+    background: var(--donate-button);
+    color: var(--donate-button-text);
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+  }
+  #supportDonation summary::-webkit-details-marker { display: none; }
+  #supportDonation summary:focus-visible { outline: 3px solid var(--donate-accent); outline-offset: 3px; }
+  #supportDonation .donate-payment { display: flex; flex-direction: column; gap: 18px; align-items: center; padding-top: 20px; }
+  #supportDonation .donate-qr {
+    width: 100%;
+    max-width: 280px;
+    display: grid;
+    place-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background: var(--donate-qr-bg);
+    color: #234b3b;
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center;
+  }
+  #supportDonation .donate-qr img { display: block; width: 100%; height: auto; object-fit: contain; }
+  #supportDonation .donate-bank { color: var(--donate-text); font-size: 14px; line-height: 1.7; overflow-wrap: anywhere; }
+  #supportDonation .donate-bank strong { display: block; color: var(--donate-heading); }
+  #supportDonation .donate-thanks { margin: 16px 0 0; font-size: 14px; }
+  @media (max-width: 720px) {
+    #supportDonation { margin: 32px 0 56px; padding: 20px 16px; }
+    #supportDonation .donate-layout { grid-template-columns: 1fr; }
+  }
+</style>
+
+<section id="supportDonation" aria-labelledby="donateTitle">
+  <div class="donate-layout">
+    <div>
+      <p class="donate-eyebrow"><span data-donate-lang="vi">Góp một ly cà phê ☕</span><span data-donate-lang="en" hidden>Buy me a coffee ☕</span></p>
+      <h2 id="donateTitle"><span data-donate-lang="vi">Nếu nơi này giúp bạn tìm được một góc hay ho</span><span data-donate-lang="en" hidden>If this somehows brighten your day</span></h2>
+      <p><span data-donate-lang="vi">Mình làm Hôm Nay Đi Đâu? từ những quán cà phê mình từng ghé, với mong muốn việc chọn một chỗ ngồi ở Hà Nội trở nên vui và dễ hơn một chút.</span><span data-donate-lang="en" hidden>I built Hôm Nay Đi Đâu? around the cafés I have visited myself, with one simple idea: to make finding somewhere to sit in Hanoi a little easier, and a little more fun.</span></p>
+      <p><span data-donate-lang="vi">Nếu bạn thích trang này và muốn đóng góp một phần nhỏ để mình tiếp tục duy trì, thử và cập nhật thêm những quán mới, bạn có thể mời mình một ly cà phê qua mã QR.</span><span data-donate-lang="en" hidden>If you enjoy the site and want to help me keep exploring, trying new places, and keeping the list up to date, you can buy me a coffee via the QR code.</span></p>
+      <p><span data-donate-lang="vi">Còn không thì cứ dùng thoải mái nhé. Chia sẻ nó cho một người cũng hay đau đầu vì câu hỏi “hôm nay đi đâu?” đã là một sự ủng hộ rất đáng quý rồi.</span><span data-donate-lang="en" hidden>If not, not a problem at all, just enjoy the site, have fun with it. Sharing it with someone who also spends way too long wondering “Hôm nay đi đâu?” already means the world to me.</span></p>
+
+    </div>
+    <details>
+      <summary><span data-donate-lang="vi">Mời mình một ly cà phê · xem QR</span><span data-donate-lang="en" hidden>Buy me a coffee · view QR</span></summary>
+      <div class="donate-payment">
+        <div class="donate-qr">
+          <img src="./donate-qr.png" alt="QR chuyển khoản ủng hộ / Donation QR code" width="879" height="1206">
+        </div>
+        <div class="donate-bank">
+          <strong><span data-donate-lang="vi">Thông tin nhận ủng hộ</span><span data-donate-lang="en" hidden>Donation details</span></strong>
+          <div><span data-donate-lang="vi">Ngân hàng</span><span data-donate-lang="en" hidden>Bank</span>: MB Bank</div>
+          <div><span data-donate-lang="vi">Số tài khoản</span><span data-donate-lang="en" hidden>Account number</span>: 0367004234</div>
+          <div><span data-donate-lang="vi">Người nhận</span><span data-donate-lang="en" hidden>Recipient</span>: Vũ Huy Hoàng</div>
+        </div>
+      </div>
+      <p class="donate-thanks"><span data-donate-lang="vi">Cảm ơn bạn đã ghé. Chúc bạn tìm được quán hợp mood hôm nay!</span><span data-donate-lang="en" hidden>Thanks for stopping by. Hope you find a café that fits your mood today!</span></p>
+    </details>
+  </div>
+</section>
+
+<script>
+  (() => {
+    const section = document.getElementById('supportDonation');
+    const languageSelect = document.getElementById('language');
+    if (!section) return;
+    const updateDonationLanguage = () => {
+      const language = languageSelect?.value === 'en' ? 'en' : 'vi';
+      section.querySelectorAll('[data-donate-lang]').forEach(node => {
+        node.hidden = node.dataset.donateLang !== language;
+      });
+    };
+    languageSelect?.addEventListener('change', updateDonationLanguage);
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updateDonationLanguage, { once: true });
+    } else {
+      updateDonationLanguage();
+    }
+  })();
+</script>
+
 </main><footer><span data-i18n="footer"></span><nav class="legal-links" data-i18n-label="legal"><a href="terms.html" data-legal-link="terms" data-i18n="terms"></a><a href="privacy.html" data-legal-link="privacy" data-i18n="privacy"></a></nav></footer><script src="i18n.js"></script><script src="i18n.js"></script>
 <script src="cafe-logic.js"></script>
 <script src="menu-logic.js"></script>
